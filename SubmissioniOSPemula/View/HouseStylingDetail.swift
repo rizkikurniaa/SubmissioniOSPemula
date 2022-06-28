@@ -15,7 +15,8 @@ struct HouseStylingDetail: View {
             VStack(spacing: 10) {
                 Image(houseStyling.houseStylingImage)
                     .resizable()
-                    .frame(width: 350, height: 300)
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: UIScreen.main.bounds.size.width - 10, height: UIScreen.main.bounds.size.height / 2.9, alignment: .center)
                     .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
                 
                 Text(houseStyling.houseStylingName)
