@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Profile: View {
+    let profileMenu: [String] = ["Saved Articles", "Favorite", "Post"]
+    
     var body: some View {
         ScrollView{
             VStack(spacing:14){
@@ -34,6 +36,23 @@ struct Profile: View {
                     .multilineTextAlignment(.leading)
                     .padding(.vertical, 20.0)
                 
+                VStack(spacing: 0) {
+                    ForEach(profileMenu, id: \.self) { profileMenu in
+                        HStack {
+                            Text(profileMenu)
+                                .font(.body)
+                            
+                            Spacer()
+                            
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color(.systemGray3))
+                                .font(.system(size: 20))
+                        }
+                        .padding(EdgeInsets(top: 17, leading: 21, bottom: 17, trailing: 21))
+                        
+                        Divider()
+                    }
+                }
                 
             }
             .padding(.vertical, 30.0)
