@@ -34,7 +34,7 @@ struct HouseStylingDetail: View {
                 
                 Text(houseStyling.description)
                     .font(.system(size: 14))
-                    .padding(.leading, 5)
+                    .padding()
                 
                 Spacer()
             }
