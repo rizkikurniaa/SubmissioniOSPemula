@@ -9,8 +9,8 @@ import Foundation
 
 struct HouseStyling: Identifiable {
     let id = UUID()
-    let houseStylingImage : String
-    let houseStylingName : String
-    let postBy : String
-    let description : String
+    let houseStylingImage: String
+    let houseStylingName: String
+    let postBy: String
+    let description: String
 }
