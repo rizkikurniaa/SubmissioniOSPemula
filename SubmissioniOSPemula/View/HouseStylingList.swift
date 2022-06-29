@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 extension Color {
     static let darkGreen = Color("DarkGreenColor")
 }
