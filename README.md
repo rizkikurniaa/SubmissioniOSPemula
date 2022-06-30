@@ -4,7 +4,7 @@ Rating Review : ★★★★☆ (4 Stars)
 
 ## Preview
 <p align="left"> 
-<img src="https://github.com/rizkikurniaa/SubmissioniOSPemula/blob/master/Preview/ss-home.png" width="250"> <img src="https://github.com/rizkikurniaa/SubmissioniOSPemula/blob/master/Preview/ss-detail.png" width="250"> <img src="https://github.com/rizkikurniaa/SubmissioniOSPemula/blob/master/Preview/ss-profile.png" width="250">
+<img src="/Preview/ss-home.png" width="250"> <img src="/Preview/ss-detail.png" width="250"> <img src="/Preview/ss-profile.png" width="250">
 
 ## Getting Started
 - Fork or Clone the Repository
